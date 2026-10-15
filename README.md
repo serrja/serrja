@@ -1,3 +1,5 @@
+<img src="./assets/logo.svg" alt="serrja" width="72" height="72" />
+
 # Python Backend Developer
 
 3+ years building APIs, integrations, and asynchronous services.  
