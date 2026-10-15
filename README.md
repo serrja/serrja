@@ -1,32 +1,50 @@
-# serrja
+<div align="center">
 
-**Python Backend Developer**  
-APIs · asynchronous systems · integrations
+<img src="./assets/hero.svg" alt="serrja — Python backend engineering" width="100%" />
 
-I build backend services with a focus on **reliability, performance, and clarity**.  
-I like explicit data flows, predictable failure handling, and code that is easy to maintain.
+### 👋 Python Backend Developer
 
-## Focus
+**3+ years building APIs, integrations, and asynchronous services.**  
+I turn complex workflows into reliable, maintainable backend systems.
 
-- **Backend & APIs** — REST, gRPC, WebSockets, asynchronous I/O.
-- **Data & messaging** — PostgreSQL, caching, queues, background processing.
-- **Performance** — query optimization, batching, reducing latency.
-- **Reliability** — testing, observability, retries, and failure recovery.
+</div>
 
-## Stack
+<br />
 
-| | |
-| :-- | :-- |
-| **Languages** | `Python` `SQL` `C++` |
-| **Backend** | `FastAPI` `asyncio` `SQLAlchemy` `Pydantic` |
-| **Data & messaging** | `PostgreSQL` `Redis` `RabbitMQ` |
-| **Infrastructure** | `Docker` `Linux` `Nginx` `CI/CD` |
-| **Testing & monitoring** | `pytest` `Prometheus` `Grafana` |
+### 🧑‍💻 A little about me
 
-## Beyond backend
+- ⚙️ I work on **REST APIs, gRPC services, WebSockets**, and event-driven integrations.
+- 🚀 I care about **performance** — from efficient SQL queries to async processing and caching.
+- 🛡️ I value **reliability** — tests, observability, predictable retries, and clear system boundaries.
+- 🧩 I also explore **Python + C++** and build my own developer tools.
 
-I also work on developer tooling and explore the boundary between **Python and C++** — native components, automation, and repeatable workflows.
+### 🛠️ Tech stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,redis,rabbitmq,docker,linux,git,cpp&amp;theme=dark&amp;perline=9" alt="Python, FastAPI, PostgreSQL, Redis, RabbitMQ, Docker, Linux, Git, and C++" />
+
+</div>
+
+<br />
+
+| Area | Tools & technologies |
+| :--- | :--- |
+| **Backend** | Python · FastAPI · asyncio · SQLAlchemy · Pydantic |
+| **Data & messaging** | PostgreSQL · Redis · RabbitMQ · Alembic |
+| **APIs** | REST · gRPC · WebSockets · OpenAPI |
+| **DevOps & quality** | Docker · Linux · pytest · CI/CD · Prometheus · Grafana |
+
+### ⚡ Selected results
+
+- **~1.1s → ~250ms** average API response time after moving webhook handling to asynchronous processing.
+- **8–9min → 2–3min** to process a batch of ~5,000 records through SQL and write-path optimization.
+- **3–5× lower p95 latency** on selected endpoints through query tuning and Redis caching.
+
+<div align="center">
 
 ---
 
-<sub>Keep the design simple. Make the behavior predictable.</sub>
+<sub>Simple interfaces. Predictable systems. Solid engineering.</sub>
+
+</div>
