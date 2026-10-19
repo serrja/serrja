@@ -1,4 +1,4 @@
-<img src="./assets/logo.svg" alt="serrja" width="64" height="64" />
+<img src="https://raw.githubusercontent.com/serrja/serrja/main/assets/logo.svg" alt="serrja" width="64" height="64" />
 
 # Python Backend Developer
 
