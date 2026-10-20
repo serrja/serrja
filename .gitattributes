@@ -1,0 +1,4 @@
+
+# Preserve byte-exact real PTY recordings and timing.
+assets/engine_demo/**/*.typescript binary
+assets/engine_demo/**/*.timing -text
