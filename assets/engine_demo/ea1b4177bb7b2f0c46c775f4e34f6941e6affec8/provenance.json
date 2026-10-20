@@ -1,0 +1,63 @@
+{
+  "sourceCommit": "ea1b4177bb7b2f0c46c775f4e34f6941e6affec8",
+  "wheel": "pokerengine-2.0.0.dev0-cp314-cp314-linux_x86_64.whl",
+  "wheelSha256": "2fce132015a72112c21030818033d8c4e896001f687143eb60d00c557f0f70a0",
+  "capture": "util-linux script, real 120x40 PTYs, TCP server and two actual line clients",
+  "completedHand": true,
+  "illegalMoveAtomic": true,
+  "outOfTurnRejected": true,
+  "result": {
+    "payouts": [
+      {
+        "player_id": "bob",
+        "amount": 2000
+      }
+    ],
+    "rake": 0
+  },
+  "commands": {
+    "server": [
+      "examples/server/poker_server.py",
+      "--headless",
+      "--seed",
+      "42",
+      "--private",
+      "--port",
+      "18765",
+      "--action-timeout",
+      "120"
+    ],
+    "alice": [
+      "examples/client/poker_client.py",
+      "--console",
+      "--player-id",
+      "alice",
+      "--seat",
+      "0",
+      "--port",
+      "18765"
+    ],
+    "bob": [
+      "examples/client/poker_client.py",
+      "--console",
+      "--player-id",
+      "bob",
+      "--seat",
+      "1",
+      "--port",
+      "18765"
+    ]
+  },
+  "privacy": "Synthetic public views only; no hole cards, credentials or personal data.",
+  "files": {
+    "bob.typescript": "1e0fcd94b8fbbe46f8851591826c33089dba7fdecabea2751c0eac5b4c74c7b4",
+    "server.typescript": "23ebcd8ef10c6281ba5f842e36fc05ff7ec98adf13682e4c82d84079ae45440e",
+    "bob.timing": "7d062dc4a562e432b0e28e13baf2feb4d9295af571b31fae8a501fcaa36c0d04",
+    "server.timing": "29d329399a79489e4b9888e4d4243b1cf766ccbce5625519d8ebc2e911053b97",
+    "alice.typescript": "dd08fd59a6671a7bf4147bd6a436b97585ee7479cf28c611233bc943c347afaf",
+    "server.txt": "61e721f63827340a27d9838b3415d96a22662dcd5a5ebc737c350a56e4e12866",
+    "alice.timing": "fe4855afe1ca9c37041f850ec3dd3a85eea0546abd0ddc6f01c3e0625d07dcc8",
+    "bob.txt": "7e4519c0fee5e200359296df5d6ab5b6d837ec336e09515adba3dad83b3c0564",
+    "alice.txt": "34bfd0ba6da0052fed8c762093387539af71e5ed48ad058f3920abab243cf79a"
+  }
+}

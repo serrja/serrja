@@ -1,0 +1,6 @@
+Script started on 2026-10-20 03:27:28+03:00 [COMMAND="python examples/server/poker_server.py --headless --seed 42 --private --port 18765 --action-timeout 120" TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="40"]
+PokerEngine TCP server listening on 127.0.0.1:18765 (TLS/auth disabled; local demonstration)
+^C
+Server stopped.
+
+Script done on 2026-10-20 03:27:28+03:00 [COMMAND_EXIT_CODE="0"]
