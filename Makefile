@@ -23,7 +23,7 @@ help:
 	@printf '%s\n' 'lint typecheck test check'
 lint:
 	git -c safe.directory=/app diff --check HEAD -- .
-	python tools/check_documentation.py --documents README.md CONTRIBUTING.md docs/engine_demo.md docs/development.md docs/versioning.md docs/releases.md CHANGELOG.md
+	python tools/check_documentation.py --documents README.md CONTRIBUTING.md docs/development.md docs/versioning.md docs/releases.md CHANGELOG.md
 typecheck:
 	@printf '%s\n' 'notApplicable: no product type system'
 test: lint

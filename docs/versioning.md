@@ -1,8 +1,7 @@
 # Versioning
 
 `VERSION` is the single canonical version of this documentation/presentation bundle. The first
-explicit version is 0.1.0; prior Git snapshots remain valid provenance. README, banner, documents
-and existing demo recordings share the bundle version and Git snapshot. They are not independent
+explicit version is 0.1.0; prior Git snapshots remain valid provenance. README, banner and documents share the bundle version and Git snapshot. They are not independent
 runtime applications or separately versioned pages.
 
 Stable major changes break the supported bundle/interface contract, minor adds compatible content

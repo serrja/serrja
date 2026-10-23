@@ -5,7 +5,7 @@ Daily policy: use `dev`, run `make lint`, inspect the staged diff, then explicit
 coverage and full acceptance commands below are manual. New manual Actions in
 `dev` may require a later authorized default-branch activation.
 
-This repository owns the public profile and its existing presentation/demo assets as one source
+This repository owns the public profile and its presentation assets as one source
 bundle. Development changes do not authorize new biography claims or regeneration of the banner.
 
 Use Git, Make, Docker/Buildx, bash and coreutils from the exact checkout:
@@ -26,6 +26,6 @@ First preparation may fetch dependencies. `OFFLINE=1` verifies the exact prepare
 source inputs before running without network. Missing inputs are blocked, invalid reports/checks
 fail, and no Actions API, token, hosted artifact/cache or GITHUB_* variable is required.
 `coverage/` holds source SHA/dirty state/content identity, commands, tools and checksums; `dist/`
-holds the bundle. Existing assets and historical refs remain unchanged.
+holds the bundle. The banner and historical refs are preserved. Demo recording belongs to pokerDemo; new recordings stay in its ignored local directory and are excluded from this profile bundle.
 
 See [versioning](versioning.md), [releases](releases.md) and [contributing](../CONTRIBUTING.md).
