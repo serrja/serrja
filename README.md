@@ -17,7 +17,7 @@ I focus on explicit data boundaries, reliable processing, database performance a
 - **[Pokerlost](https://github.com/pokerlost)** — an evolving poker platform: C++ rules engine,
   Python SDK and shared Flutter web UI. Code is private; the public organization page explains
   the scope. Foundations and demos are in development.
-  [Read the actual engine demo recording](docs/engine_demo.md).
+  [View the real engine demo GIF and provenance](docs/engine_demo.md).
 - **[baseRules](https://github.com/serrja/baseRules)** — reusable engineering and documentation
   conventions, plus portable Obsidian templates with placeholders.
 - **[Pokerlost project rules](https://github.com/pokerlost/projectRules)** — safe public project

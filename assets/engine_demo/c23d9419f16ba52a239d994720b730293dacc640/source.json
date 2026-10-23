@@ -1,0 +1,27 @@
+{
+  "sourceCommit": "c23d9419f16ba52a239d994720b730293dacc640",
+  "wheelVersion": "2.0.0.dev1",
+  "wheelSha256": "f5290e26be47de463fb1d449795d123a92a0fb8c26af5fbb6d6973c5277eb971",
+  "phases": [
+    "betting/PREFLOP",
+    "betting/FLOP",
+    "betting/TURN",
+    "betting/RIVER",
+    "showdown/RIVER"
+  ],
+  "result": {
+    "ok": true,
+    "result": {
+      "payouts": [
+        {
+          "player_id": "bob",
+          "amount": 200
+        }
+      ],
+      "rake": 0
+    }
+  },
+  "privateViews": false,
+  "tls": false,
+  "loopbackOnly": true
+}

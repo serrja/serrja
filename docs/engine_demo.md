@@ -5,7 +5,32 @@ loopback TCP server. C++20 owns validation, state and settlement; Python handles
 transport, input and display. This recording is from source `ea1b4177bb7b2f0c46c775f4e34f6941e6affec8`.
 The implementation repository is private. These captured outputs are public.
 
-## Read the actual capture
+## Current dev recording
+
+![Real loopback hand replay](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/demo.gif)
+
+[Connection](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/connected.png) ·
+[Flop](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/flop.png) ·
+[Showdown](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/result.png) ·
+[Original cast](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/demo.cast) ·
+[Source receipt](../assets/engine_demo/c23d9419f16ba52a239d994720b730293dacc640/source.json).
+
+Source `c23d9419f16ba52a239d994720b730293dacc640`, wheel `2.0.0.dev1`. The actual server and two
+console clients completed preflop, flop, turn, river and settlement: Bob received
+200 synthetic chips, zero rake. Private card views were disabled. Images are faithful
+replay frames from actual terminal output, not a graphical game client or invented
+transcript. The older run below retains its original SHA and distinct outcome.
+
+From the private engine checkout with its prepared wheel environment, `make demo`
+runs the scenario and stops only its own children. The engine's
+`examples/render_demo.py` converts the retained cast using Pillow and a local
+monospace font; no font binary is published here.
+
+Validation for this dev snapshot: lint passed and this local demo completed.
+Full suites, coverage, integration and production deployment were not run. These
+changes live on dev; the default-branch profile is unchanged until promotion.
+
+## Historical capture
 
 - [Alice console](../assets/engine_demo/ea1b4177bb7b2f0c46c775f4e34f6941e6affec8/alice.txt), [Bob console](../assets/engine_demo/ea1b4177bb7b2f0c46c775f4e34f6941e6affec8/bob.txt),
   [server console](../assets/engine_demo/ea1b4177bb7b2f0c46c775f4e34f6941e6affec8/server.txt).
@@ -35,7 +60,7 @@ Original recordings: [Alice](../assets/engine_demo/ea1b4177bb7b2f0c46c775f4e34f6
 The private demo provides headless/interactive server modes and two console
 clients. Its controls include state, legal actions, fold/check/call/bet/raise,
 all-in, settle, result, events and quit. The captured wheel was built from the same
-clean source commit and imported from site-packages. The owner suite passed 201
+clean source commit and imported from site-packages. At that historical source, the owner suite passed 201
 Python tests and native C++ suites; the actual recording also checked privacy,
 illegal-action atomicity and clean disconnect.
 
