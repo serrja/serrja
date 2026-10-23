@@ -12,4 +12,4 @@ I focus on explicit data boundaries, reliable processing, database performance a
 | Engineering | Docker · pytest · Git · CI/CD · Prometheus · Grafana |
 | Engine work | C++20 rules engine with Python bindings |
 
-[Pokerlost organization](https://github.com/pokerlost) · [Public projects](https://github.com/serrja?tab=repositories&type=public)
+[Pokerlost organization](https://github.com/pokerlost) · [My repositories](https://github.com/serrja?tab=repositories)
